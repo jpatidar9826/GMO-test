@@ -1,0 +1,12 @@
+.auth-wrapper{
+    text-align: center;
+    display: flex;
+    padding: 5%;
+}
+
+.auth-content-wrap{
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 100px auto;
+}

@@ -1,0 +1,39 @@
+.department-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.parent-wrap{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.parent-wrap-open{
+    height: fit-content;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.button-row svg{
+    margin: auto 2px;
+}
+
+.button-row div{
+    margin: auto 0px;
+}
+.child-wrap{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}

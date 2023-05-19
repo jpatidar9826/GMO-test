@@ -1,0 +1,35 @@
+.auth-float-wrap{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid black;
+    border-right: 0px;
+    margin-top: 15px;
+    border-top-left-radius: 1rem;
+    transition: all 1s ease-out;
+}
+.auth-float-wrap:hover{
+    background-color: black;
+    color: white;
+}
+.home-button{
+    margin: 5px 10px;
+}
+.home-button:hover{
+    color: #1976d2;
+}
+
+.auth-name{
+    margin: 5px 10px;
+}
+
+.logout-button{
+    margin: 5px 10px;
+}
+.logout-button:hover{
+    color: rgb(217, 41, 41);
+}

@@ -1,0 +1,15 @@
+.grid-content {
+  width: 100%;
+  color: #bdbdcd;
+  overflow-x: scroll;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .grid-content {
+    color: #bdbdcd;
+    max-width: 1100px;
+    overflow-x: none;
+    margin: 20px;
+  }
+}

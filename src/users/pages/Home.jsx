@@ -20,7 +20,6 @@ const Home = () => {
       fetch("https://jsonplaceholder.typicode.com/posts", requestOptions)
         .then(async (response) => {
           const responseData = await response.json();
-          console.log(responseData);
           setLoadedUsers(responseData);
           setIsLoading(false);
         })
